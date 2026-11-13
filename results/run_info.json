@@ -1,0 +1,28 @@
+{
+  "evaluated_at": "2026-11-13T17:47:37+07:00",
+  "splits": [
+    "test"
+  ],
+  "versions": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "psycopg": "3.3.8",
+    "pymupdf": "2.1",
+    "sentence-transformers": "6.3.0",
+    "torch": "2.15.0",
+    "transformers": "5.22.2"
+  },
+  "embedding": {
+    "provider": "local/sentence-transformers",
+    "model": "intfloat/multilingual-e5-small",
+    "dimensions": 384,
+    "max_seq_length_tokens": 512,
+    "library": "sentence-transformers 6.3.0",
+    "query_prefix": "query: ",
+    "document_prefix": "passage: ",
+    "normalized": true,
+    "cost_usd": 0.0
+  },
+  "strategies_file": "starter/config/strategies.json",
+  "benchmark_file": "benchmark/questions.json"
+}

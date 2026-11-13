@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "questions": 20,
+  "dev": 15,
+  "test": 5,
+  "with_filter": 3,
+  "with_filter_test": 1,
+  "types": {
+    "truc_tiep": 4,
+    "dien_dat_lai": 5,
+    "so_lieu": 4,
+    "dieu_kien": 3,
+    "metadata_filter": 3,
+    "ngoai_le": 1
+  },
+  "filter_fields_available": [
+    "document_id",
+    "document_type",
+    "page",
+    "publisher",
+    "section",
+    "subsection",
+    "title"
+  ],
+  "errors": [],
+  "warnings": [],
+  "validated_at": "2026-11-13T17:40:20+07:00"
+}

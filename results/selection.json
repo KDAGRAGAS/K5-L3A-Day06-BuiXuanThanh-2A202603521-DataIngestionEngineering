@@ -1,0 +1,26 @@
+{
+  "selected_strategy": "C",
+  "rule": "Chốt trước khi chạy test: chọn cấu hình có Evidence Hit@3 trên dev cao nhất; hòa thì Hit@1 dev cao hơn; hòa tiếp thì ít chunk hơn (tài nguyên). Coherence/grounding chấm tay dùng để giải thích, không đổi lựa chọn sau khi xem test.",
+  "ranking": [
+    {
+      "strategy": "C",
+      "dev_hit3": 13,
+      "dev_hit1": 11,
+      "chunks": 303
+    },
+    {
+      "strategy": "B",
+      "dev_hit3": 13,
+      "dev_hit1": 11,
+      "chunks": 303
+    },
+    {
+      "strategy": "A",
+      "dev_hit3": 13,
+      "dev_hit1": 11,
+      "chunks": 396
+    }
+  ],
+  "decided_at": "2026-11-13T17:47:03+07:00",
+  "test_results_existed_before_this_selection": false
+}

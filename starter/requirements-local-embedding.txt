@@ -1,0 +1,5 @@
+
+# Local embedding (EMBEDDING_PROVIDER=local). Pulls PyTorch (CPU build on Windows from PyPI).
+# The model itself (~470 MB for intfloat/multilingual-e5-small) is downloaded on first run
+# into the Hugging Face cache (~/.cache/huggingface).
+sentence-transformers>=3.0

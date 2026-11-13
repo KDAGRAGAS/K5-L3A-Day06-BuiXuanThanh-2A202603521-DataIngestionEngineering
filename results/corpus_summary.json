@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-13T17:39:49+07:00",
+  "counted_content_pages": 52,
+  "minimum": 30,
+  "meets_minimum": true,
+  "documents": [
+    {
+      "source_id": "openstax-intro-business-2e",
+      "physical_pages_or_units": 663,
+      "counted_content_page_count": 52,
+      "counted_chars": 169626
+    }
+  ],
+  "errors": 0,
+  "status_counts": {
+    "content": 52,
+    "excluded_by_manifest": 611
+  }
+}

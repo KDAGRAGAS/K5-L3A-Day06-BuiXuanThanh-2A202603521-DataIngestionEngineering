@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-11-13T17:47:37+07:00",
+  "embedding": {
+    "provider": "local/sentence-transformers",
+    "model": "intfloat/multilingual-e5-small",
+    "dimensions": 384,
+    "max_seq_length_tokens": 512,
+    "library": "sentence-transformers 6.3.0",
+    "query_prefix": "query: ",
+    "document_prefix": "passage: ",
+    "normalized": true,
+    "cost_usd": 0.0
+  },
+  "top_k": 3,
+  "summary": {
+    "A": {
+      "dev": {
+        "questions": 15,
+        "hit_at_1": {
+          "n": 11,
+          "N": 15,
+          "text": "11/15",
+          "rate": 0.733
+        },
+        "evidence_hit_at_3": {
+          "n": 13,
+          "N": 15,
+          "text": "13/15",
+          "rate": 0.867
+        },
+        "multi_chunk_evidence_hit_at_3 (bổ sung)": {
+          "n": 13,
+          "N": 15,
+          "text": "13/15",
+          "rate": 0.867
+        },
+        "filter_questions": 2,
+        "top3_filter_compliance": {
+          "n": 2,
+          "N": 2,
+          "text": "2/2",
+          "rate": 1.0
+        },
+        "failure_types": {
+          "right_document_wrong_page": 2
+        },
+        "mean_search_ms": 2.26
+      },
+      "test": {
+        "questions": 5,
+        "hit_at_1": {
+          "n": 1,
+          "N": 5,
+          "text": "1/5",
+          "rate": 0.2
+        },
+        "evidence_hit_at_3": {
+          "n": 3,
+          "N": 5,
+          "text": "3/5",
+          "rate": 0.6
+        },
+        "multi_chunk_evidence_hit_at_3 (bổ sung)": {
+          "n": 3,
+          "N": 5,
+          "text": "3/5",
+          "rate": 0.6
+        },
+        "filter_questions": 1,
+        "top3_filter_compliance": {
+          "n": 1,
+          "N": 1,
+          "text": "1/1",
+          "rate": 1.0
+        },
+        "failure_types": {
+          "gold_page_without_evidence": 1,
+          "gold_page_partial_evidence": 1
+        },
+        "mean_search_ms": 4.13
+      }
+    },
+    "B": {
+      "dev": {
+        "questions": 15,
+        "hit_at_1": {
+          "n": 11,
+          "N": 15,
+          "text": "11/15",
+          "rate": 0.733
+        },
+        "evidence_hit_at_3": {
+          "n": 13,
+          "N": 15,
+          "text": "13/15",
+          "rate": 0.867
+        },
+        "multi_chunk_evidence_hit_at_3 (bổ sung)": {
+          "n": 13,
+          "N": 15,
+          "text": "13/15",
+          "rate": 0.867
+        },
+        "filter_questions": 2,
+        "top3_filter_compliance": {
+          "n": 2,
+          "N": 2,
+          "text": "2/2",
+          "rate": 1.0
+        },
+        "failure_types": {
+          "gold_page_partial_evidence": 1,
+          "right_document_wrong_page": 1
+        },
+        "mean_search_ms": 2.16
+      },
+      "test": {
+        "questions": 5,
+        "hit_at_1": {
+          "n": 5,
+          "N": 5,
+          "text": "5/5",
+          "rate": 1.0
+        },
+        "evidence_hit_at_3": {
+          "n": 5,
+          "N": 5,
+          "text": "5/5",
+          "rate": 1.0
+        },
+        "multi_chunk_evidence_hit_at_3 (bổ sung)": {
+          "n": 5,
+          "N": 5,
+          "text": "5/5",
+          "rate": 1.0
+        },
+        "filter_questions": 1,
+        "top3_filter_compliance": {
+          "n": 0,
+          "N": 1,
+          "text": "0/1",
+          "rate": 0.0
+        },
+        "failure_types": {},
+        "mean_search_ms": 2.44
+      }
+    },
+    "C": {
+      "dev": {
+        "questions": 15,
+        "hit_at_1": {
+          "n": 11,
+          "N": 15,
+          "text": "11/15",
+          "rate": 0.733
+        },
+        "evidence_hit_at_3": {
+          "n": 13,
+          "N": 15,
+          "text": "13/15",
+          "rate": 0.867
+        },
+        "multi_chunk_evidence_hit_at_3 (bổ sung)": {
+          "n": 13,
+          "N": 15,
+          "text": "13/15",
+          "rate": 0.867
+        },
+        "filter_questions": 2,
+        "top3_filter_compliance": {
+          "n": 2,
+          "N": 2,
+          "text": "2/2",
+          "rate": 1.0
+        },
+        "failure_types": {
+          "gold_page_partial_evidence": 1,
+          "right_document_wrong_page": 1
+        },
+        "mean_search_ms": 2.53
+      },
+      "test": {
+        "questions": 5,
+        "hit_at_1": {
+          "n": 5,
+          "N": 5,
+          "text": "5/5",
+          "rate": 1.0
+        },
+        "evidence_hit_at_3": {
+          "n": 5,
+          "N": 5,
+          "text": "5/5",
+          "rate": 1.0
+        },
+        "multi_chunk_evidence_hit_at_3 (bổ sung)": {
+          "n": 5,
+          "N": 5,
+          "text": "5/5",
+          "rate": 1.0
+        },
+        "filter_questions": 1,
+        "top3_filter_compliance": {
+          "n": 1,
+          "N": 1,
+          "text": "1/1",
+          "rate": 1.0
+        },
+        "failure_types": {},
+        "mean_search_ms": 4.21
+      }
+    }
+  }
+}

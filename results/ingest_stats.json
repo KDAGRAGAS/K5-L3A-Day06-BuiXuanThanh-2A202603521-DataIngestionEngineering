@@ -1,0 +1,124 @@
+{
+  "run_at": "2026-11-13T17:46:04+07:00",
+  "embedding": {
+    "provider": "local/sentence-transformers",
+    "model": "intfloat/multilingual-e5-small",
+    "dimensions": 384,
+    "max_seq_length_tokens": 512,
+    "library": "sentence-transformers 6.3.0",
+    "query_prefix": "query: ",
+    "document_prefix": "passage: ",
+    "normalized": true,
+    "cost_usd": 0.0
+  },
+  "versions": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "psycopg": "3.3.8",
+    "pymupdf": "2.1",
+    "sentence-transformers": "6.3.0",
+    "torch": "2.15.0",
+    "transformers": "5.22.2",
+    "chroma": "1.5.9",
+    "metric": "cosine",
+    "search": "approximate (HNSW)"
+  },
+  "indexes": {
+    "A": {
+      "config": {
+        "description": "Fixed-size 500 ký tự, overlap 50, trong từng trang; không lọc",
+        "chunking": "fixed",
+        "chunk_size": 500,
+        "overlap": 50,
+        "index": "A",
+        "use_filter": false,
+        "hypothesis": "Baseline: dễ cắt giữa câu/ý, evidence dài có thể bị tách qua 2 chunk nên Hit@1 thấp hơn B"
+      },
+      "chunk_stats": {
+        "count": 396,
+        "total_chars": 186716,
+        "min": 60,
+        "p25": 499.0,
+        "median": 500.0,
+        "mean": 471.5,
+        "p75": 500.0,
+        "max": 500,
+        "total_tokens": 42998,
+        "max_tokens": 169,
+        "chunks_over_model_limit": 0,
+        "model_max_seq_length": 512
+      },
+      "upsert": {
+        "embedded_now": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged_skipped": 396,
+        "deleted_obsolete": 0
+      },
+      "db_check": {
+        "rows": 396,
+        "distinct_chunk_ids": 396,
+        "distinct_spans": 396,
+        "distinct_content_hashes": 396,
+        "duplicate_rows": 0,
+        "expected_chunks": 396,
+        "rows_match_expected": true
+      },
+      "time_s": {
+        "chunk": 0.001,
+        "embed": 0.0,
+        "store": 0.007,
+        "total": 0.008
+      }
+    },
+    "B": {
+      "config": {
+        "description": "Theo heading/đoạn (heading dính với đoạn sau), tối đa 800 ký tự, đoạn quá dài tách theo câu; không lọc",
+        "chunking": "paragraph",
+        "max_size": 800,
+        "min_size": 120,
+        "index": "B",
+        "use_filter": false,
+        "hypothesis": "Chunk giữ trọn ý nên coherence và grounding tốt hơn A; Hit@3 ngang hoặc cao hơn A"
+      },
+      "chunk_stats": {
+        "count": 303,
+        "total_chars": 169171,
+        "min": 40,
+        "p25": 432.0,
+        "median": 611,
+        "mean": 558.3,
+        "p75": 722.0,
+        "max": 1051,
+        "total_tokens": 38499,
+        "max_tokens": 260,
+        "chunks_over_model_limit": 0,
+        "model_max_seq_length": 512
+      },
+      "upsert": {
+        "embedded_now": 0,
+        "inserted": 0,
+        "updated": 0,
+        "unchanged_skipped": 303,
+        "deleted_obsolete": 0
+      },
+      "db_check": {
+        "rows": 303,
+        "distinct_chunk_ids": 303,
+        "distinct_spans": 303,
+        "distinct_content_hashes": 303,
+        "duplicate_rows": 0,
+        "expected_chunks": 303,
+        "rows_match_expected": true
+      },
+      "time_s": {
+        "chunk": 0.021,
+        "embed": 0.0,
+        "store": 0.005,
+        "total": 0.026
+      }
+    }
+  },
+  "model_load_s": 22.28,
+  "content_pages": 52
+}

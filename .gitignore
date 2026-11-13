@@ -8,3 +8,11 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# Toàn văn đã chuẩn hóa (tạo lại bằng check-corpus)
+data/processed/
+results/audit/*.new.csv
+results/chroma/
+
+# Tài liệu gốc nặng (148MB) - lấy lại theo link trong data/manifest.json
+data/raw/

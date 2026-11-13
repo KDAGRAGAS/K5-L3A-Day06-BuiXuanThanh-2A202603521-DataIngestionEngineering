@@ -1,4 +1,8 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
-psycopg[binary]==3.3.8
-pypdf>=5,<7
+# Core: PDF reading (PyMuPDF), .env loading, Chroma vector store (runs locally, no Docker).
+pymupdf>=1.24
 python-dotenv>=1,<2
+chromadb>=0.5
+# Local embedding model: also install requirements-local-embedding.txt (skip only if using an API).
+#
+# Only if you switch to VECTOR_STORE=pgvector (needs Docker) do you also need psycopg:
+#   pip install "psycopg[binary]==3.3.8"

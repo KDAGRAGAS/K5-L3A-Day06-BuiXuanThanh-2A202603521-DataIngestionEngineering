@@ -1,5 +1,7 @@
 # Day 06 · Data Ingestion Engineering
 
+> **Bài làm:** cách setup, chạy pipeline và vị trí các kết quả xem [RUN.md](RUN.md). Code ở `starter/src/`, cấu hình ba chiến lược ở `starter/config/strategies.json`.
+
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
 Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.

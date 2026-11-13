@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-11-13T18:14:21+07:00",
+  "by_strategy": {
+    "A": {
+      "coherence_mean_of_2": 0.0,
+      "coherence_n": 10,
+      "coherence_inherited_from_shared_index": 0,
+      "metadata_correct": "15/15",
+      "metadata_errors": [],
+      "filter_compliance_test": "1/1",
+      "grounding_counts_0_1_2": {
+        "0": 1,
+        "1": 1,
+        "2": 3
+      },
+      "grounding_mean_of_2": 1.4,
+      "grounding_n": 5
+    },
+    "B": {
+      "coherence_mean_of_2": 1.7,
+      "coherence_n": 10,
+      "coherence_inherited_from_shared_index": 0,
+      "metadata_correct": "15/15",
+      "metadata_errors": [],
+      "filter_compliance_test": "0/1",
+      "grounding_counts_0_1_2": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "grounding_mean_of_2": 2.0,
+      "grounding_n": 5
+    },
+    "C": {
+      "coherence_mean_of_2": 1.7,
+      "coherence_n": 10,
+      "coherence_inherited_from_shared_index": 10,
+      "metadata_correct": "15/15",
+      "metadata_errors": [],
+      "filter_compliance_test": "1/1",
+      "grounding_counts_0_1_2": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "grounding_mean_of_2": 2.0,
+      "grounding_n": 5
+    }
+  }
+}

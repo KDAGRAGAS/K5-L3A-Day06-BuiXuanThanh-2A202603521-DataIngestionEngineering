@@ -1,0 +1,21 @@
+{
+  "documents": [
+    {
+      "source_id": "openstax-intro-business-2e",
+      "title": "Introduction to Business 2e (OpenStax)",
+      "source_path_or_url": "https://openstax.org/details/books/introduction-business-2e",
+      "local_path": "data/raw/Introduction_to_Business_2e_-_WEB.pdf",
+      "license_or_permission": "CC BY-NC-SA 4.0 (ghi ở trang 4 của PDF: Textbook content produced by OpenStax is licensed under CC BY-NC-SA 4.0); attribution: Access for free at openstax.org",
+      "accessed_at": "2026-11-13",
+      "version_or_snapshot": "Introduction to Business 2e, PDF WEB, ©2026 Rice University (file Introduction_to_Business_2e_-_WEB.pdf, 663 trang)",
+      "content_pages": "23-57,67-83",
+      "page_counting_rule": "Số trang PDF vật lý (1-based). Chỉ lấy phần nội dung chính Chương 1 (tr.23-57) và Chương 2 (tr.67-83); bỏ bìa, mục lục, lời nói đầu và phần cuối chương (Key Terms, Summary, Ethics Activity, Working the Net, Critical Thinking Case, Hot Links).",
+      "section_level": 1,
+      "strip_repeated_headers": true,
+      "metadata": {
+        "document_type": "textbook",
+        "publisher": "OpenStax"
+      }
+    }
+  ]
+}

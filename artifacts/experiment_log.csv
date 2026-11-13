@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,500,50,"document_id,source,page,page_label,title,section,subsection,char_start,char_end + manifest metadata",không,"intfloat/multilingual-e5-small (384d, local/sentence-transformers), pgvector cosine exact","Baseline: dễ cắt giữa câu/ý, evidence dài có thể bị tách qua 2 chunk nên Hit@1 thấp hơn B",11/15,13/15,1/5,3/5,"index A; Fixed-size 500 ký tự, overlap 50, trong từng trang; không lọc"
+B,paragraph,max 800,0,"document_id,source,page,page_label,title,section,subsection,char_start,char_end + manifest metadata",không,"intfloat/multilingual-e5-small (384d, local/sentence-transformers), pgvector cosine exact",Chunk giữ trọn ý nên coherence và grounding tốt hơn A; Hit@3 ngang hoặc cao hơn A,11/15,13/15,5/5,5/5,"index B; Theo heading/đoạn (heading dính với đoạn sau), tối đa 800 ký tự, đoạn quá dài tách theo câu; không lọc"
+C,paragraph,max 800,0,"document_id,source,page,page_label,title,section,subsection,char_start,char_end + manifest metadata",có (khi câu hỏi có filter),"intfloat/multilingual-e5-small (384d, local/sentence-transformers), pgvector cosine exact",Filter loại chunk sai phạm vi nên câu có filter tăng Hit@1/Hit@3; câu không filter giữ nguyên như B,11/15,13/15,5/5,5/5,"index B; Giống hệt B (dùng chung index B) + metadata filter, chỉ áp dụng khi câu hỏi có filter"

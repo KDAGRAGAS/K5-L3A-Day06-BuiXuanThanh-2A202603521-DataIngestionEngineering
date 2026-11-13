@@ -1,0 +1,233 @@
+{
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "What is a business, according to the textbook?",
+      "expected_answer": "An organization that strives for a profit by providing goods and services desired by its customers",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 26,
+      "evidence_quote": "A business is an organization that strives for a profit by providing goods and services desired by its customers.",
+      "filter": null
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Which concept describes the general level of human happiness judged by things like life expectancy, education, health and leisure time?",
+      "expected_answer": "Quality of life",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 26,
+      "evidence_quote": "Quality of life refers to the general level of human happiness based on such things as life expectancy, educational standards, health, sanitation, and leisure time.",
+      "filter": null
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "What do we call an organization whose main aim is something other than making money?",
+      "expected_answer": "A not-for-profit organization",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 27,
+      "evidence_quote": "A not-for-profit organization is an organization that exists to achieve some goal other than the usual business goal of profit.",
+      "filter": null
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Who combines natural resources, labor, and capital to produce goods or services?",
+      "expected_answer": "Entrepreneurs",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 28,
+      "evidence_quote": "Entrepreneurs are the people who combine the inputs of natural resources, labor, and capital to produce goods or services with the intention of making a profit or accomplishing a not-for-profit goal.",
+      "filter": null
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "so_lieu",
+      "question": "Roughly what share of the U.S. workforce are knowledge workers?",
+      "expected_answer": "Nearly 50 percent (over 70 million people)",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 29,
+      "evidence_quote": "knowledge workers is over 70 million and represents nearly 50 percent of the total workforce.",
+      "filter": null
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "What is the study of people's vital statistics such as age, gender, race and location called?",
+      "expected_answer": "Demography",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 32,
+      "evidence_quote": "Demography is the study of people’s vital statistics, such as their age, gender, race and ethnicity, and location.",
+      "filter": null
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "How does the book define economics?",
+      "expected_answer": "The study of how a society uses scarce resources to produce and distribute goods and services",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 34,
+      "evidence_quote": "Economics is the study of how a society uses scarce resources to produce and distribute goods and services.",
+      "filter": null
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "What does gross domestic product (GDP) measure?",
+      "expected_answer": "The total market value of all final goods and services produced within a nation's borders each year",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 40,
+      "evidence_quote": "GDP is the total market value of all final goods and services produced within a nation’s borders each year.",
+      "filter": null
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "dieu_kien",
+      "question": "When does cyclical unemployment happen?",
+      "expected_answer": "When a downturn in the business cycle reduces the demand for labor throughout the economy",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 41,
+      "evidence_quote": "Cyclical unemployment, as the name implies, occurs when a downturn in the business cycle reduces the demand for labor throughout the economy.",
+      "filter": null
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "dieu_kien",
+      "question": "What situation causes demand-pull inflation?",
+      "expected_answer": "When demand for goods and services is greater than the supply",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 42,
+      "evidence_quote": "Demand-pull inflation occurs when the demand for goods and services is greater than the supply.",
+      "filter": null
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "dieu_kien",
+      "question": "Under what condition does the government run a federal budget deficit?",
+      "expected_answer": "When it spends more on programs than it collects in taxes",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 45,
+      "evidence_quote": "If the government spends more for programs (social services, education, defense) than it collects in taxes, the result is a federal budget deficit.",
+      "filter": null
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "so_lieu",
+      "question": "How large is the U.S. national debt according to the textbook?",
+      "expected_answer": "About $40 trillion, over $100,000 per person",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 45,
+      "evidence_quote": "The accumulated total of these past deficits is the national debt, which now amounts to $40 trillion, or over $100,000 per person in the United States.",
+      "filter": null
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "so_lieu",
+      "question": "What share of the world's supply of uncut diamonds did DeBeers control until the early 2000s?",
+      "expected_answer": "80 to 85 percent",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 53,
+      "evidence_quote": "DeBeers Consolidated Mines Ltd., for example, controlled 80 to 85 percent of the world's supply of uncut diamonds until the early 2000s.",
+      "filter": null
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "What is ethics?",
+      "expected_answer": "A set of moral standards for judging whether something is right or wrong",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 69,
+      "evidence_quote": "Ethics is a set of moral standards for judging whether something is right or wrong.",
+      "filter": {
+        "section": "Chapter 2 Making Ethical Decisions and Managing a Socially Responsible Business"
+      },
+      "filter_context": "Người dùng đang học Chương 2 (đạo đức kinh doanh) và chọn phạm vi chương trước khi hỏi"
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Which philosophy says people should meet their obligations and duties when analyzing an ethical dilemma?",
+      "expected_answer": "Deontology",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 71,
+      "evidence_quote": "The philosophy that says people should meet their obligations and duties when analyzing an ethical dilemma is called deontology.",
+      "filter": {
+        "section": "Chapter 2 Making Ethical Decisions and Managing a Socially Responsible Business"
+      },
+      "filter_context": "Người dùng đang học Chương 2 (đạo đức kinh doanh) và chọn phạm vi chương trước khi hỏi"
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "type": "ngoai_le",
+      "question": "In what circumstances can fundamental individual rights be disregarded?",
+      "expected_answer": "Only in extreme circumstances, such as during wartime",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 71,
+      "evidence_quote": "Those rights can be disregarded only in extreme circumstances, such as during wartime.",
+      "filter": null
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Who are the stakeholders of a business?",
+      "expected_answer": "The individuals or groups to whom a business has a responsibility",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 79,
+      "evidence_quote": "Stakeholders are the individuals or groups to whom a business has a responsibility.",
+      "filter": {
+        "section": "Chapter 2 Making Ethical Decisions and Managing a Socially Responsible Business"
+      },
+      "filter_context": "Người dùng đang học Chương 2 (đạo đức kinh doanh) và chọn phạm vi chương trước khi hỏi"
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "What does corporate social responsibility mean?",
+      "expected_answer": "The concern of businesses for the welfare of society as a whole",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 76,
+      "evidence_quote": "corporate social responsibility (CSR), which is the concern of businesses for the welfare of society as a whole.",
+      "filter": null
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "so_lieu",
+      "question": "How much can reducing customer defections by about five points affect profits in some industries?",
+      "expected_answer": "It can double profits",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 57,
+      "evidence_quote": "reducing customer defections by as little as five points—from, say, 15 percent to 10 percent per year—can double profits.",
+      "filter": null
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "What is the graph that shows how much a business will supply at different prices called?",
+      "expected_answer": "A supply curve",
+      "gold_source_id": "openstax-intro-business-2e",
+      "gold_page": 48,
+      "evidence_quote": "A graph of the relationship between various prices and the quantities a business will supply is a supply curve.",
+      "filter": null
+    }
+  ]
+}
